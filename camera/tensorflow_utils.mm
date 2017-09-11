@@ -152,6 +152,13 @@ tensorflow::Status LoadModel(NSString* file_name, NSString* file_type,
     LOG(ERROR) << "Could not create TensorFlow Graph: " << create_status;
     return create_status;
   }
+  
+  auto nodeCount = tensorflow_graph.node_size();
+  NSLog(@"Node count: %d", nodeCount);
+  for (auto i = 0; i < nodeCount; ++i) {
+    auto node = tensorflow_graph.node(i);
+    NSLog(@"Node %d: %s '%s'", i, node.op().c_str(), node.name().c_str());
+  }
 
   return tensorflow::Status::OK();
 }

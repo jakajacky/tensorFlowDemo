@@ -18,6 +18,10 @@
 		592FF90D18EDD0DA00C164F8 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 592FF90A18EDD0DA00C164F8 /* MainStoryboard_iPhone.storyboard */; };
 		592FF92518EE240200C164F8 /* CameraExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 592FF92218EE240200C164F8 /* CameraExampleAppDelegate.m */; };
 		592FF92618EE240200C164F8 /* CameraExampleViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 592FF92418EE240200C164F8 /* CameraExampleViewController.mm */; };
+		6E2EFAE01F666EB9002C4ACA /* retrained_labels.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6E2EFADE1F666EB9002C4ACA /* retrained_labels.txt */; };
+		6E2EFAE11F666EB9002C4ACA /* tensorflow_inception_graph.pb in Resources */ = {isa = PBXBuildFile; fileRef = 6E2EFADF1F666EB9002C4ACA /* tensorflow_inception_graph.pb */; };
+		6E2EFAE41F666EEB002C4ACA /* retrained_graph.pb in Resources */ = {isa = PBXBuildFile; fileRef = 6E2EFAE21F666EEB002C4ACA /* retrained_graph.pb */; };
+		6E2EFAE51F666EEB002C4ACA /* retrained_labels.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6E2EFAE31F666EEB002C4ACA /* retrained_labels.txt */; };
 		6EF7A84B1F622B4D002FA84D /* libprotobuf-lite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF7A8491F622B4D002FA84D /* libprotobuf-lite.a */; };
 		6EF7A84C1F622B4D002FA84D /* libprotobuf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF7A84A1F622B4D002FA84D /* libprotobuf.a */; };
 		6EF7A84E1F622B59002FA84D /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF7A84D1F622B59002FA84D /* Accelerate.framework */; };
@@ -47,6 +51,10 @@
 		592FF92218EE240200C164F8 /* CameraExampleAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraExampleAppDelegate.m; sourceTree = SOURCE_ROOT; };
 		592FF92318EE240200C164F8 /* CameraExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraExampleViewController.h; sourceTree = SOURCE_ROOT; };
 		592FF92418EE240200C164F8 /* CameraExampleViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CameraExampleViewController.mm; sourceTree = SOURCE_ROOT; };
+		6E2EFADE1F666EB9002C4ACA /* retrained_labels.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = retrained_labels.txt; sourceTree = "<group>"; };
+		6E2EFADF1F666EB9002C4ACA /* tensorflow_inception_graph.pb */ = {isa = PBXFileReference; lastKnownFileType = file; path = tensorflow_inception_graph.pb; sourceTree = "<group>"; };
+		6E2EFAE21F666EEB002C4ACA /* retrained_graph.pb */ = {isa = PBXFileReference; lastKnownFileType = file; path = retrained_graph.pb; sourceTree = "<group>"; };
+		6E2EFAE31F666EEB002C4ACA /* retrained_labels.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = retrained_labels.txt; sourceTree = "<group>"; };
 		6EF7A8491F622B4D002FA84D /* libprotobuf-lite.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libprotobuf-lite.a"; sourceTree = "<group>"; };
 		6EF7A84A1F622B4D002FA84D /* libprotobuf.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libprotobuf.a; sourceTree = "<group>"; };
 		6EF7A84D1F622B59002FA84D /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
@@ -86,6 +94,10 @@
 				591D3ED71CFFA83A0059011C /* grace_hopper.jpg */,
 				591D3ED81CFFA83A0059011C /* imagenet_comp_graph_label_strings.txt */,
 				591D3ED91CFFA83A0059011C /* tensorflow_inception_graph.pb */,
+				6E2EFAE21F666EEB002C4ACA /* retrained_graph.pb */,
+				6E2EFAE31F666EEB002C4ACA /* retrained_labels.txt */,
+				6E2EFADE1F666EB9002C4ACA /* retrained_labels.txt */,
+				6E2EFADF1F666EB9002C4ACA /* tensorflow_inception_graph.pb */,
 			);
 			path = data;
 			sourceTree = SOURCE_ROOT;
@@ -209,6 +221,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				591D3EDA1CFFA83A0059011C /* grace_hopper.jpg in Resources */,
+				6E2EFAE41F666EEB002C4ACA /* retrained_graph.pb in Resources */,
+				6E2EFAE51F666EEB002C4ACA /* retrained_labels.txt in Resources */,
+				6E2EFAE11F666EB9002C4ACA /* tensorflow_inception_graph.pb in Resources */,
+				6E2EFAE01F666EB9002C4ACA /* retrained_labels.txt in Resources */,
 				591D3EDC1CFFA83A0059011C /* tensorflow_inception_graph.pb in Resources */,
 				592FF90D18EDD0DA00C164F8 /* MainStoryboard_iPhone.storyboard in Resources */,
 				591D3EDB1CFFA83A0059011C /* imagenet_comp_graph_label_strings.txt in Resources */,

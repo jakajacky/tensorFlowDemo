@@ -94,8 +94,8 @@ static float femaleExample[] = {
 
 	// We want to run these nodes.
 	std::vector<std::string> nodes = {
-        {"model/y_pred"},
-        {"inference/inference"}
+	    {"model/y_pred"},
+		{"inference/inference"}
     };
 
 	// The results of running the nodes are stored in this vector.

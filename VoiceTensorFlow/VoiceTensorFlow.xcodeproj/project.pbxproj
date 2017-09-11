@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E2EFAE81F6671AE002C4ACA /* retrained_graph.pb in Resources */ = {isa = PBXBuildFile; fileRef = 6E2EFAE61F6671AE002C4ACA /* retrained_graph.pb */; };
+		6E2EFAE91F6671AE002C4ACA /* retrained_labels.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6E2EFAE71F6671AE002C4ACA /* retrained_labels.txt */; };
 		6E30F4B81F1861FB00E49A9F /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B0EA8881E69EDDF00D77F1C /* Accelerate.framework */; };
 		6EA246751F177230007D570E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EA246741F177230007D570E /* Foundation.framework */; };
 		6EA246771F177237007D570E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EA246761F177237007D570E /* CoreGraphics.framework */; };
@@ -24,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6E2EFAE61F6671AE002C4ACA /* retrained_graph.pb */ = {isa = PBXFileReference; lastKnownFileType = file; path = retrained_graph.pb; sourceTree = "<group>"; };
+		6E2EFAE71F6671AE002C4ACA /* retrained_labels.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = retrained_labels.txt; sourceTree = "<group>"; };
 		6EA246741F177230007D570E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6EA246761F177237007D570E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6EA246781F177244007D570E /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
@@ -89,6 +93,8 @@
 				7B0EA8741E69EAEA00D77F1C /* AppDelegate.m */,
 				7B0EA8761E69EAEA00D77F1C /* ViewController.h */,
 				7B0EA8771E69EAEA00D77F1C /* ViewController.mm */,
+				6E2EFAE61F6671AE002C4ACA /* retrained_graph.pb */,
+				6E2EFAE71F6671AE002C4ACA /* retrained_labels.txt */,
 				7B0EA88A1E69F32800D77F1C /* inference.pb */,
 				7B0EA8791E69EAEA00D77F1C /* Main.storyboard */,
 				7B0EA87C1E69EAEA00D77F1C /* Assets.xcassets */,
@@ -182,7 +188,9 @@
 			files = (
 				7B0EA8801E69EAEA00D77F1C /* LaunchScreen.storyboard in Resources */,
 				7B0EA87D1E69EAEA00D77F1C /* Assets.xcassets in Resources */,
+				6E2EFAE81F6671AE002C4ACA /* retrained_graph.pb in Resources */,
 				7B0EA88B1E69F32800D77F1C /* inference.pb in Resources */,
+				6E2EFAE91F6671AE002C4ACA /* retrained_labels.txt in Resources */,
 				7B0EA87B1E69EAEA00D77F1C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
